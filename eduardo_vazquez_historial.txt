@@ -1,0 +1,51 @@
+    1  
+    2  mkdir practica-git && cd practica-git
+    3  git@github.com:eduardo-vazquez-IFCD0210/week22-day1-repositorio-git-para-examen.git
+    4  git init -b main
+    5  git config user.name
+    6  git config user.email
+    7  git remote add origin https://github.com/eduardo-vazquez-IFCD0210/week22-day1-repositorio-git-para-examen.git
+    8  echo "Práctica de Git" > readme.txt
+    9  git status
+   10  git add .
+   11  git commit -m "comit inicial"
+   12  git push -u origin main
+   13  git push -u origin main
+   14  git config user.name
+   15  git config user.name "eduardo-vazquez"
+   16  git push -u origin main
+   17  git remote set-url origin git@github.com:eduardo-vazquez-IFCD0210/week22-day1-repositorio-git-para-examen.git
+   18  git push -u origin main
+   19  git checkout -b desarrollo
+   20  echo "contenido desarrollo" > dev.txt
+   21  git add .
+   22  git commit -m "commit desarrollo 1"
+   23  echo "modificacion en desarrollo" >> dev.txt
+   24  git commit -am "Modificado dev.txt"
+   25  git diff main desarrollo
+   26  git push -u origin desarrollo
+   27  git checkout main
+   28  git checkout -b feature-login
+   29  echo "codigo de login" > login.txt
+   30  git add login.txt
+   31  git commit -m "Añadido login"
+   32  git log --all --graph --oneline
+   33  git checkout main
+   34  git merge desarrollo
+   35  git merge feature-login
+   36  git push origin main
+   37  git branch -d desarrollo
+   38  git branch -d feature-login
+   39  git push origin --delete desarrollo
+   40  git branch -a
+   41  git log > eduardo_vazquez_gitlog.txt
+   42  git log --oneline > eduardo_vazquez_gitlog_oneline.txt
+   43  history > tuNombre_historial.txt
+   44  ls
+   45  history 200 > eduardo_vazquez_historial.txt
+   46  tail -n 200 ~/.zsh_history > eduardo_vazquez_historial.txt
+   47  tail -n 200 ~/.zsh_history > eduardo_vazquez_historial.txt
+   48  history 150 > eduardo_vazquez_historial.txt
+
+
+direccion del repo: https://github.com/eduardo-vazquez-IFCD0210/week22-day1-repositorio-git-para-examen.git

@@ -1,0 +1,31 @@
+commit ad7e69836c9548e8acc89becdda9387b32bf53c3
+Merge: 48809f1 012e29a
+Author: eduardo-vazquez <dev.eduardovazquez@gmail.com>
+Date:   Mon Nov 2 14:36:31 2026 +0100
+
+    Merge branch 'feature-login'
+    feature-login
+
+commit 012e29a3c38cdf7ff8de4ffc6e8bc128d4e93257
+Author: eduardo-vazquez <dev.eduardovazquez@gmail.com>
+Date:   Mon Nov 2 14:36:02 2026 +0100
+
+    Añadido login
+
+commit 48809f13171d83416f1ca0cbda1d2c7c6d83959c
+Author: eduardo-vazquez <dev.eduardovazquez@gmail.com>
+Date:   Mon Nov 2 14:34:47 2026 +0100
+
+    Modificado dev.txt
+
+commit 2ba6026aaa6c766d69bf39ab28edf8c5f25078c8
+Author: eduardo-vazquez <dev.eduardovazquez@gmail.com>
+Date:   Mon Nov 2 14:34:25 2026 +0100
+
+    commit desarrollo 1
+
+commit 483a1c584fb4257098a945c1ba061d9ec243b45b
+Author: Eduardo Vazquez <dev.eduardovazquez@gmail.com>
+Date:   Mon Nov 2 14:28:26 2026 +0100
+
+    comit inicial
